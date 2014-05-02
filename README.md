@@ -28,7 +28,12 @@ $ npm test
 
 ## Changelog
 
-  - 0.0.0 - First working version
+  - `0.0.1`
+    - First release
+    - Merge [#2](https://github.com/radubogdan/node-offliberty/pull/2)
+    - Merge [#1](https://github.com/radubogdan/node-offliberty/pull/1)
+  - `0.0.0`
+    - First working version
 
 ## License
 See the LICENSE file.
