@@ -1,0 +1,32 @@
+{
+  "name": "offliberty-node",
+  "version": "0.0.0",
+  "description": "simple interface to the offliberty.com download service.",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/off.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/radubogdan/offliberty-node"
+  },
+  "keywords": [
+    "offliberty",
+    "download",
+    "youtube",
+    "soundcloud"
+  ],
+  "author": "Radu-Bogdan Croitoru <croitoruradubogdan@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/radubogdan/offliberty-node/issues"
+  },
+  "homepage": "https://github.com/radubogdan/offliberty-node",
+  "dependencies": {
+    "request": "*",
+    "cheerio": "*"
+  }
+}
