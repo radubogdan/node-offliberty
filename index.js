@@ -26,9 +26,9 @@ var Offliberty = {
     off: function(url, callback) {
 
         var options = {
-            url: 'http://offliberty.com/off54.php',
-            method: 'POST',
-            form: { track: url }
+            url: 'http://offliberty.com/off54.php'
+          , method: 'POST'
+          , form: { track: url }
         };
 
         return request(options, function (err, res, body) {
