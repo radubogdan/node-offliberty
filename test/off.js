@@ -1,4 +1,4 @@
-var offliberty = require('../index.js');
+var offliberty = require('../lib/index.js');
 
 console.log('Requesting...');
 offliberty.off('https://www.youtube.com/watch?v=CIqWwiC1BFI', function (err, downloadUrl) {

@@ -1,0 +1,18 @@
+#!/usr/bin/env node
+
+var offliberty = require('../lib/index.js');
+
+args = process.argv.slice(2);
+
+if (args != 0) {
+    console.log('Requesting...');
+    args.forEach(function(url) {
+        offliberty.off(url, function (err, downloadUrl) {
+            console.log(err || downloadUrl);
+        });
+    });
+} else {
+    console.log("You need to pass at least one URL\n"
+              + "Example: $ off https://www.youtube.com/watch?v=VWV7CGx9MAQ"
+    );
+}
