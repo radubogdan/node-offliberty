@@ -35,7 +35,18 @@ var Offliberty = {
 
             if (!err && res.statusCode == 200) {
                 var $ = cheerio.load(body);
-                callback (null, $('.download').attr('href'));
+                var download_link = $('.download').attr('href');
+
+                if (download_link == undefined) {
+                    var not_possible = body.search('offliberty_giewu_bernardo_new');
+                    var not_valid_url = '\n' + $('b').text().replace(/^\s+/mg, '');
+
+                    not_possible > 0 ?
+                        callback('Offliberating this URL is not possible yet.', null)
+                      : callback(not_valid_url, null)
+                } else {
+                    callback(null, $('.download').attr('href'));
+                }
             } else {
                 callback (err || body);
             }
