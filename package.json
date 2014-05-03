@@ -1,6 +1,6 @@
 {
   "name": "offliberty",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "simple interface to the offliberty.com download service.",
   "main": "./lib/index.js",
   "bin": {
