@@ -16,6 +16,21 @@ $ sudo npm install -g offliberty
 $ off https://www.youtube.com/watch?v=Y1st6O1tqII https://www.youtube.com/watch?v=VWV7CGx9MAQ
 ```
 
+Or you can pass en entire file:
+Notice: Reading from file is synchronous, don't use large files.
+
+```sh
+$ cat music.txt
+http://www.youtube.com/watch?v=0s7E2uIn3tM
+http://www.youtube.com/watch?v=iSRu0_DrTyU
+http://www.youtube.com/watch?v=C3QK1FVVNNk
+$ off music.txt
+Requesting...
+http://k27.offliberty.com/C3QK1FVVNNk.mp3
+http://k12.offliberty.com/iSRu0_DrTyU.mp3
+http://k52.offliberty.com/0s7E2uIn3tM.mp3
+```
+
 ```sh
 Requesting...
 http://k18.offliberty.com/VWV7CGx9MAQ.mp3
@@ -52,6 +67,8 @@ $ npm test
 
 ## Changelog
 
+  - `0.0.4`
+    - Implement reading from file
   - `0.0.3`
     - Add bin for a better usage
   - `0.0.2`
