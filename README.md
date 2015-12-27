@@ -65,21 +65,6 @@ http://k15.offliberty.com/CIqWwiC1BFI.mp3
 $ npm test
 ```
 
-## Changelog
-
-  - `0.0.4`
-    - Implement reading from file
-  - `0.0.3`
-    - Add bin for a better usage
-  - `0.0.2`
-    - Check if downloadUrl is not available and display the correct errors.
-  - `0.0.1`
-    - First release
-    - Merge [#2](https://github.com/radubogdan/node-offliberty/pull/2)
-    - Merge [#1](https://github.com/radubogdan/node-offliberty/pull/1)
-  - `0.0.0`
-    - First working version
-
 ## License
 See the [LICENSE](https://raw.githubusercontent.com/radubogdan/node-offliberty/master/LICENSE) file.
 
