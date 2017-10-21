@@ -1,6 +1,6 @@
 {
   "name": "offliberty",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "simple interface to the offliberty.com download service.",
   "main": "./lib/index.js",
   "bin": {
@@ -25,12 +25,12 @@
   "author": "Radu-Bogdan Croitoru <croitoruradubogdan@gmail.com>",
   "contributors": [
     {
-        "name": "Radu-Bogdan Croitoru",
-        "email": "croitoruradubogdan@gmail.com"
+      "name": "Radu-Bogdan Croitoru",
+      "email": "croitoruradubogdan@gmail.com"
     },
     {
-        "name": "Ionică Bizău",
-        "email": "bizauionica@gmail.com"
+      "name": "Ionică Bizău",
+      "email": "bizauionica@gmail.com"
     }
   ],
   "license": "MIT",
